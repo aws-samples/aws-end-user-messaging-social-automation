@@ -22,9 +22,9 @@ sam deploy --guided
 The first command will build the source of your application. The second command will package and deploy your application to AWS, with a series of prompts:
 
 * **Stack Name**: `EndUserMessagingWhatsApp`
-* **AWS Region [us-east-1]**: <AWS region where you have created the WABA account>
-* **Parameter SNSTopicArn []**: <ARN of the SNS topic created in Step 1 of the blog>
-* **Parameter PhoneNumberID []**: <Phone number ID from Step 2 of the blog>
+* **AWS Region [us-east-1]**: `[AWS region where you have created the WABA account]`
+* **Parameter SNSTopicArn []**: `[ARN of the SNS topic created in Step 1 of the blog]`
+* **Parameter PhoneNumberID []**: `[Phone number ID from Step 2 of the blog]`
 
 Accept the defaults of the rest of the prompts to complete the deployment. This will create a Lambda function that is triggered when a WhatsApp message is sent to your WABA number
 
