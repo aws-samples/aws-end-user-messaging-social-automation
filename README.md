@@ -10,7 +10,7 @@ The solution uses [AWS End User Messaging Social](https://docs.aws.amazon.com/so
 * AWS CLI [installed](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and [configured](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) to access to your AWS account
 * Serverless Application Model [CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html) to deploy the sample application
 * [node.js](https://nodejs.org/en/download/package-manager) >= 22.x
-* Follow the steps in the accompanied blog to link your WABA account and Meta business portfolio
+* Follow the steps in the accompanied [blog](https://aws.amazon.com/blogs/messaging-and-targeting/whatsapp-aws-end-user-messaging-social/) to link your WABA account and Meta business portfolio
 
 ## Deploy the application
 
