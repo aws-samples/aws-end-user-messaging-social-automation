@@ -1,5 +1,7 @@
 # Automate Workflows with WhatsApp using AWS End User Messaging Social
 
+This repository accompanies the AWS blog post [Automate workflows with WhatsApp using AWS End User Messaging Social](https://aws.amazon.com/blogs/messaging-and-targeting/whatsapp-aws-end-user-messaging-social/).
+
 The solution uses [AWS End User Messaging Social](https://docs.aws.amazon.com/social-messaging/latest/userguide/what-is-service.html) to integrate your workload deployed on AWS with your Meta business portfolio. This allows you to receive WhatsApp messages sent from your end customers directly in your AWS environment. When a WhatsApp message is received, End User Messaging Social triggers an Amazon Simple Notification Service (SNS) notification, which in turn triggers an AWS Lambda function to process the request. This Lambda function processes the request and then sends a WhatsApp message as a response back to the user. The solution can be further expanded to build complex business workflows or automate your marketing campaigns using WhatsApp.
 
 ## Prerequisites
